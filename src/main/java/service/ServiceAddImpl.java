@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
-@Scope ("prototype")
 public class ServiceAddImpl implements ServiceAdd {
     private final Basket basket;
     public ServiceAddImpl(Basket basket) {
